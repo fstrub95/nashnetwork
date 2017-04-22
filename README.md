@@ -12,19 +12,16 @@ bibtex:
   year={2017}
 }
 
-
-
-
 Requirement:
  - tensorflow > 1.0
  - numpy
  - pickle
 
 
-This code compute the policy that tends to an epsilon nash-equilibrium for general markov games.
-Parameters are defined in the main.py
+Given a random generated markov games with N players, this code computes the players'stategie that would tend to an epsilon nash-equilibrium.
+Parameters are defined in the main.py for a two plyer general sum-games.
 
-We are aware that the code is not very clean (bad design patern, hardcoded conf, few comments), I would happy to answer your questions and update the code accordingly.
+We are aware that the code is not very clean (bad design paterns, hardcoded conf, few comments), I would be happy to answer your questions and update the code accordingly. Feel free to contact me for more details!
 
 
 
